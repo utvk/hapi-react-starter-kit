@@ -47,7 +47,7 @@ class Layout extends Component {
 }
 
 Layout.propTypes = {
-  children: PropTypes.object.isRequired,
+  children: PropTypes.array.isRequired,
   dispatch: PropTypes.func.isRequired,
   loadLocale: PropTypes.func.isRequired,
   login: PropTypes.func.isRequired,
